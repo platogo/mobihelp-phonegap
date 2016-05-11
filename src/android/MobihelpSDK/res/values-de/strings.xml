@@ -8,7 +8,7 @@
     <string name="mobihelp_activity_title_feedback_only">Feedback</string>
     <string name="mobihelp_activity_title_solution_article">Lösungsvorschlag</string>
     <string name="mobihelp_label_contact_us">Kontakt</string>
-    <string name="mobihelp_label_contact_us_description_text">Wenn Du nichts Passendes gefunden hast, kontaktiere uns.</string>
+    <string name="mobihelp_label_contact_us_description_text">Wenn du nichts Passendes gefunden hast, kontaktiere uns.</string>
     <string name="mobihelp_label_my_conversations">Meine Anfragen</string>
     <string name="mobihelp_label_support_solutions_list_label">Lösungsvorschläge</string>
     <string name="mobihelp_label_request_review">Hier klicken, um die App im Play Store zu bewerten</string>
@@ -40,12 +40,12 @@
     <!-- Misc -->
     <string name="mobihelp_content_description_send_message">Senden</string>
     <string name="mobihelp_content_description_device_screenshot">Screenshot</string>
-    <string name="mobihelp_tickets_list_empty_message">Hier tippen für eine neue Anfrage</string>
+    <string name="mobihelp_tickets_list_empty_message">Hier tippen, um eine neue Anfrage zu senden</string>
     <string name="mobihelp_solutions_list_empty_message">Es sind keine Lösungsvorschläge verfügbar.</string>
     <string name="mobihelp_message_ticket_submitted_thank_you">Vielen Dank! Dein Feedback wurde gesendet.</string>
-    <string name="mobihelp_message_request_succeded">Erfolgreich gesendet</string>
+    <string name="mobihelp_message_request_succeded">Erfolgreich gesendet!</string>
     <string name="mobihelp_message_request_failed">Fehler beim Senden. Versuche es später.</string>
-    <string name="mobihelp_message_failed_to_load_solution_article">Dieser Artikel kann nicht geladen werden</string>
+    <string name="mobihelp_message_failed_to_load_solution_article">Dieser Artikel kann nicht geladen werden.</string>
     <string name="mobihelp_message_support_agent">Support</string>
     <string name="mobihelp_message_pending">wird gesendet...</string>
     
