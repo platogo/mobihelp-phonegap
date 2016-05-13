@@ -77,7 +77,7 @@
         <!-- Resources -->
         <resource-file src="src/ios/MobihelpSDK/MHModel.bundle" target-dir="MobihelpiOSPlugin"/>
         <resource-file src="src/ios/MobihelpSDK/MHResources.bundle" target-dir="MobihelpiOSPlugin"/>
-        <resource-file src="src/ios/MobihelpSDK/MHLocalization/en.lproj/MHLocalizable.strings" target-dir="MobihelpiOSPlugin/MHLocalization/en.lproj"/>
+        <resource-file src="src/ios/MobihelpSDK/MHLocalization"/>
 
         <!-- Frameworks -->
         <framework src="AVFoundation.framework"/>

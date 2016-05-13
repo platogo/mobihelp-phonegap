@@ -1,0 +1,82 @@
+<resources>
+
+    <string name="app_name">FreshdeskSDK</string>
+    
+    <string name="mobihelp_activity_title_solution_list">Zákaznická podpora</string>
+    <string name="mobihelp_activity_title_tickets_list">Konverzace</string>
+    <string name="mobihelp_activity_title_feedback">Spustit konverzaci</string>
+    <string name="mobihelp_activity_title_feedback_only">Feedback</string>
+    <string name="mobihelp_activity_title_solution_article">Řešení</string>
+    <string name="mobihelp_label_contact_us">Kontakt</string>
+    <string name="mobihelp_label_contact_us_description_text">Pokud jste nic vhodného nenašli, kontaktujte nás.</string>
+    <string name="mobihelp_label_my_conversations">Moje konverzace</string>
+    <string name="mobihelp_label_support_solutions_list_label">Řešení</string>
+    <string name="mobihelp_label_request_review">Klikněte zde a ohodnoťte aplikaci v obchodě Play Store.</string>
+    <string name="mobihelp_autoreply_message">Děkujeme za vaši zprávu. Zaměstnanci naší zákaznické podpory se vám co nejdříve ozvou.</string>
+    <string name="mobihelp_default_anon_user_name">Uživatel Mobihelp</string>
+
+    <!-- UI Element hints -->
+    <string name="mobihelp_hint_email">E-mailová adresa</string>
+    <string name="mobihelp_hint_feedback">Jaký je váš názor?</string>
+    <string name="mobihelp_hint_name">Jméno</string>
+    <string name="mobihelp_hint_required_field">(povinné)</string>
+    <string name="mobihelp_hint_optional_field">(nepovinné)</string>
+    <string name="mobihelp_hint_enter_text_here">Zde napište zprávu</string>
+    <string name="mobihelp_hint_solutions_search_query_hint">Hledat v databázi</string>
+
+    <!-- Error Messages -->
+    <string name="mobihelp_error_no_network_connection">Nejste připojeni k internetu!</string>
+    <string name="mobihelp_error_name_not_present">Uveďte prosím jméno</string>
+    <string name="mobihelp_error_email_not_present">Uveďte prosím e-mailovou adresu</string>
+    <string name="mobihelp_error_email_not_valid">Uveďte prosím platnou e-mailovou adresu</string>
+    <string name="mobihelp_error_description_not_present">Popište prosím váš problém</string>
+    <string name="mobihelp_error_genreic_retry_message">Zkuste to prosím později znovu.</string>
+
+    <!-- Menu Items -->
+    <string name="mobihelp_menu_item_title_search_solutions">Hledat</string>
+    <string name="mobihelp_menu_item_title_contact_us">Kontakt</string>
+    <string name="mobihelp_menu_item_title_submit">Odeslat</string>
+
+    <!-- Misc -->
+    <string name="mobihelp_content_description_send_message">Odeslat</string>
+    <string name="mobihelp_content_description_device_screenshot">Printscreen</string>
+    <string name="mobihelp_tickets_list_empty_message">Pro novou konverzaci klikněte zde.</string>
+    <string name="mobihelp_solutions_list_empty_message">Nejsou k dispozici žádná řešení.</string>
+    <string name="mobihelp_message_ticket_submitted_thank_you">Děkujeme! Váš feedback byl odeslán.</string>
+    <string name="mobihelp_message_request_succeded">Úspěšně odesláno</string>
+    <string name="mobihelp_message_request_failed">Chyba při odesílání. Zkuste to později znovu.</string>
+    <string name="mobihelp_message_failed_to_load_solution_article">Toto zboží nemohlo být načteno</string>
+    <string name="mobihelp_message_support_agent">Zákaznická podpora</string>
+    <string name="mobihelp_message_pending">Odesílá se...</string>
+
+    <!-- Rating Dialog Title, Text & Button labels -->
+    <string name="mobihelp_rating_dialog_text">Pokud se vám tato aplikace líbí, věnujte pár sekund jejímu ohodnocení. Děkujem za vaši podporu!</string>
+    <string name="mobihelp_rating_dialog_title">Ohodnotit</string>
+    <string name="mobihelp_rating_dialog_rate_button">Ohodnotit</string>
+    <string name="mobihelp_rating_dialog_not_now_button">Nyní ne</string>
+    <string name="mobihelp_rating_dialog_feedback_button">Feedback</string>
+
+    <!-- Text used to describe the time each item in the conversation -->
+    <string name="mobihelp_time_just_now">Nyní</string>
+    <string name="mobihelp_time_n_mins_ago">Před {mins} minutami</string>
+
+    <plurals name="mobihelp_time_n_hrs_ago">
+        <item quantity="one">Před {hours} hodinami</item>
+        <item quantity="other">Před {hours} hodinami</item>
+    </plurals>
+
+    <plurals name="mobihelp_time_n_weeks_ago">
+        <item quantity="one">Před {weeks} týdny</item>
+        <item quantity="other">Před {weeks} týdny</item>
+    </plurals>
+
+    <plurals name="mobihelp_time_n_months_ago">
+        <item quantity="one">Před {months} měsícem</item>
+        <item quantity="other">Před {months} měsíci</item>
+    </plurals>
+
+    <string name="mobihelp_time_a_day_ago">Včera</string>
+    <string name="mobihelp_time_n_days_ago">Před {days} dny</string>
+    <string name="mobihelp_time_more_than_a_year_ago">Před více než jedním rokem</string>
+
+</resources>
