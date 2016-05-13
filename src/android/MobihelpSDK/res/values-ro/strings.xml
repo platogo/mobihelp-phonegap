@@ -1,0 +1,82 @@
+<resources>
+
+    <string name="app_name">FreshdeskSDK</string>
+    
+    <string name="mobihelp_activity_title_solution_list">Serviciul Suport</string>
+    <string name="mobihelp_activity_title_tickets_list">Solicitări</string>
+    <string name="mobihelp_activity_title_feedback">Creare solicitare</string>
+    <string name="mobihelp_activity_title_feedback_only">Feedback</string>
+    <string name="mobihelp_activity_title_solution_article">Sugestie de soluționare</string>
+    <string name="mobihelp_label_contact_us">Contact</string>
+    <string name="mobihelp_label_contact_us_description_text">Dacă nu ai găsit nimic potrivit, contactează-ne.</string>
+    <string name="mobihelp_label_my_conversations">Solicitările mele</string>
+    <string name="mobihelp_label_support_solutions_list_label">Sugestii de soluționare</string>
+    <string name="mobihelp_label_request_review">Dă click aici pentru a evalua aplicația în Play Store</string>
+    <string name="mobihelp_autoreply_message">Îți mulțumim pentru feedback-ul tău. Colaboratorii noștri de la serviciul suport te vor contacta în scurt timp.</string>
+    <string name="mobihelp_default_anon_user_name">Utilizatori Mobihelp</string>
+    
+    <!-- UI Element hints -->
+    <string name="mobihelp_hint_email">Adresă de e-mail</string>
+    <string name="mobihelp_hint_feedback">Ce părere ai?</string>
+    <string name="mobihelp_hint_name">Nume</string>
+    <string name="mobihelp_hint_required_field">(obligatoriu)</string>
+    <string name="mobihelp_hint_optional_field">(opțional)</string>
+    <string name="mobihelp_hint_enter_text_here">Inserează mesajul aici</string>
+    <string name="mobihelp_hint_solutions_search_query_hint">Caută în baza noastră de date</string>
+    
+    <!-- Error Messages -->
+    <string name="mobihelp_error_no_network_connection">Nicio conexiune la Internet!</string>
+    <string name="mobihelp_error_name_not_present">Te rugăm să introduci un nume</string>
+    <string name="mobihelp_error_email_not_present">Te rugăm să introduci o adresă de e-mail</string>
+    <string name="mobihelp_error_email_not_valid">Te rugăm să introduci o adresă validă de e-mail</string>
+    <string name="mobihelp_error_description_not_present">Te rugăm să introduci o descriere a problemei</string>
+    <string name="mobihelp_error_genreic_retry_message">Te rugăm să încerci din nou mai târziu.</string>
+    
+    <!-- Menu Items -->
+    <string name="mobihelp_menu_item_title_search_solutions">Căutare</string>
+    <string name="mobihelp_menu_item_title_contact_us">Contact</string>
+    <string name="mobihelp_menu_item_title_submit">Trimite</string>
+    
+    <!-- Misc -->
+    <string name="mobihelp_content_description_send_message">Trimite</string>
+    <string name="mobihelp_content_description_device_screenshot">Screenshot</string>
+    <string name="mobihelp_tickets_list_empty_message">Scrie aici, pentru a trimite o nouă solicitare</string>
+    <string name="mobihelp_solutions_list_empty_message">Nu e disponibilă nicio sugestie de soluționare.</string>
+    <string name="mobihelp_message_ticket_submitted_thank_you">Îți mulțumim! Feedback-ul tău a fost trimis.</string>
+    <string name="mobihelp_message_request_succeded">Trimis cu succes!</string>
+    <string name="mobihelp_message_request_failed">Eroare la trimitere. Încearcă mai târziu.</string>
+    <string name="mobihelp_message_failed_to_load_solution_article">Acest articol nu poate fi încărcat.</string>
+    <string name="mobihelp_message_support_agent">Asistență</string>
+    <string name="mobihelp_message_pending">În curs de trimitere ...</string>
+    
+    <!-- Rating Dialog Title, Text & Button labels -->
+    <string name="mobihelp_rating_dialog_text">Dacă îți place această aplicație, rezervă-ți puțin timp pentru a o evalua. Îți mulțumim pentru sprijinul acordat!</string>
+    <string name="mobihelp_rating_dialog_title">Evaluare</string>
+    <string name="mobihelp_rating_dialog_rate_button">Evaluare</string>
+    <string name="mobihelp_rating_dialog_not_now_button">Nu acum</string>
+    <string name="mobihelp_rating_dialog_feedback_button">Feedback</string>
+    
+    <!-- Text used to describe the time each item in the conversation -->
+    <string name="mobihelp_time_just_now">acum</string>
+    <string name="mobihelp_time_n_mins_ago">acum {mins} minute</string>
+    
+    <plurals name="mobihelp_time_n_hrs_ago">
+        <item quantity="one">acum {hours} oră</item>
+        <item quantity="other">acum {hours} ore</item>
+    </plurals>
+    
+    <plurals name="mobihelp_time_n_weeks_ago">
+        <item quantity="one">acum {weeks} săptămână</item>
+        <item quantity="other">acum {weeks} săptămâni</item>
+    </plurals>
+    
+    <plurals name="mobihelp_time_n_months_ago">
+        <item quantity="one">acum {months} lună</item>
+        <item quantity="other">acum {months} luni</item>
+    </plurals>
+    
+    <string name="mobihelp_time_a_day_ago">ieri</string>
+    <string name="mobihelp_time_n_days_ago">acum {days} zile</string>
+    <string name="mobihelp_time_more_than_a_year_ago">acum mai bine de un an</string>
+
+</resources>
