@@ -1,7 +1,7 @@
 <resources>
 
     <string name="app_name">FreshdeskSDK</string>
-    
+
     <string name="mobihelp_activity_title_solution_list">Zákaznická podpora</string>
     <string name="mobihelp_activity_title_tickets_list">Konverzace</string>
     <string name="mobihelp_activity_title_feedback">Spustit konverzaci</string>
@@ -31,11 +31,25 @@
     <string name="mobihelp_error_email_not_valid">Uveďte prosím platnou e-mailovou adresu</string>
     <string name="mobihelp_error_description_not_present">Popište prosím váš problém</string>
     <string name="mobihelp_error_genreic_retry_message">Zkuste to prosím později znovu.</string>
+    <string name="mobihelp_error_image_not_found">Obrázek nenalezen! Možná byl přesunut či smazán.</string>
+    <string name="mobihelp_error_attachment_too_large">Příliš velký soubor!</string>
+    <string name="mobihelp_error_invalid_image">Neplatný formát obrázku!</string>
+    <string name="mobihelp_error_note_text_empty">Uveďte prosím text jako odpověď.</string>
+    <string name="mobihelp_error_support_section_disabled">Zákaznická podpora není momentálně dostupná!</string>
+    <string name="mobihelp_error_unable_to_launch_app_store">Vyskytla se chyba při načítání AppStore.</string>
+    <string name="mobihelp_error_waiting_for_image_to_load">Obrázek se nahrává.</string>
+    <string name="mobihelp_error_no_matching_solution_articles_found">Nebyly nalezeny žádné pomocné texty.</string>
 
     <!-- Menu Items -->
     <string name="mobihelp_menu_item_title_search_solutions">Hledat</string>
     <string name="mobihelp_menu_item_title_contact_us">Kontakt</string>
     <string name="mobihelp_menu_item_title_submit">Odeslat</string>
+
+    <!-- Text for attachment related items -->
+    <string name="mobihelp_dialog_select_picture_title">Zvolit obrázek</string>
+    <string name="mobihelp_content_description_action_attach_image">Přiložit obrázek</string>
+    <string name="mobihelp_content_description_attachment">Příloha obrázek</string>
+    <string name="mobihelp_attachment_default_message">Obrázek přiložen</string>
 
     <!-- Misc -->
     <string name="mobihelp_content_description_send_message">Odeslat</string>
@@ -48,6 +62,15 @@
     <string name="mobihelp_message_failed_to_load_solution_article">Toto zboží nemohlo být načteno</string>
     <string name="mobihelp_message_support_agent">Zákaznická podpora</string>
     <string name="mobihelp_message_pending">Odesílá se...</string>
+    <string name="mobihelp_close_confirmation_message">Pomohli jsme Vám při řešení Vašeho problému?</string>
+    <string name="mobihelp_message_conversation_ended">Konverzace skončila.</string>
+    <string name="mobihelp_message_start_new_conversation">Spustit novou konverzaci.</string>
+    <string name="mobihelp_message_vote_successful">Děkujeme za Váš feedback!</string>
+    <string name="mobihelp_solutions_vote_prompt">Pomohlo Vám toto řešení?</string>
+
+    <!-- Label text for UI elements -->
+    <string name="mobihelp_label_yes">Ano</string>
+    <string name="mobihelp_label_no">Ne</string>
 
     <!-- Rating Dialog Title, Text & Button labels -->
     <string name="mobihelp_rating_dialog_text">Pokud se vám tato aplikace líbí, věnujte pár sekund jejímu ohodnocení. Děkujem za vaši podporu!</string>

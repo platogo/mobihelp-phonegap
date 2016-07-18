@@ -1,7 +1,7 @@
 <resources>
 
     <string name="app_name">FreshdeskSDK</string>
-    
+
     <string name="mobihelp_activity_title_solution_list">Podrška</string>
     <string name="mobihelp_activity_title_tickets_list">Upit</string>
     <string name="mobihelp_activity_title_feedback">Sastavljanje upita</string>
@@ -14,7 +14,7 @@
     <string name="mobihelp_label_request_review">Kliknite ovdje kako biste ocijenili aplikaciju u Play Store</string>
     <string name="mobihelp_autoreply_message">Puno Vam hvala na javljanju. Suradnici naše podrške uskoro će Vas kontaktirati.</string>
     <string name="mobihelp_default_anon_user_name">Mobihelp-korisnik</string>
-    
+
     <!-- UI Element hints -->
     <string name="mobihelp_hint_email">E-mail adresa</string>
     <string name="mobihelp_hint_feedback">Što mislite?</string>
@@ -23,7 +23,7 @@
     <string name="mobihelp_hint_optional_field">(izborno)</string>
     <string name="mobihelp_hint_enter_text_here">Ovdje unesite poruku</string>
     <string name="mobihelp_hint_solutions_search_query_hint">Pretraživanje naše baze podataka</string>
-    
+
     <!-- Error Messages -->
     <string name="mobihelp_error_no_network_connection">Nema veze na internet!</string>
     <string name="mobihelp_error_name_not_present">Molimo Vas da unesete svoje ime</string>
@@ -31,12 +31,26 @@
     <string name="mobihelp_error_email_not_valid">Molimo Vas da unesete važeću e-mail adresu</string>
     <string name="mobihelp_error_description_not_present">Molimo Vas da unesete opis problema</string>
     <string name="mobihelp_error_genreic_retry_message">Pokušajte ponovno kasnije.</string>
-    
+    <string name="mobihelp_error_image_not_found">Slika nije pronađena! Možda je premještena ili obrisana.</string>
+    <string name="mobihelp_error_attachment_too_large">Prilog je prevelik!</string>
+    <string name="mobihelp_error_invalid_image">Nevažeći format slike!</string>
+    <string name="mobihelp_error_note_text_empty">Molimo Vas, unesite tekst kao odgovor.</string>
+    <string name="mobihelp_error_support_section_disabled">Služba za korisničku podršku trenutačno nije dostupna!</string>
+    <string name="mobihelp_error_unable_to_launch_app_store">AppStore nije mogao biti učitan za ocjenu.</string>
+    <string name="mobihelp_error_waiting_for_image_to_load">Slika se uploada.</string>
+    <string name="mobihelp_error_no_matching_solution_articles_found">Nije pronađen nijedan odgovarajući članak za pomoć.</string>
+
     <!-- Menu Items -->
     <string name="mobihelp_menu_item_title_search_solutions">Pretraga</string>
     <string name="mobihelp_menu_item_title_contact_us">Kontakt</string>
     <string name="mobihelp_menu_item_title_submit">Slanje</string>
-    
+
+    <!-- Text for attachment related items -->
+    <string name="mobihelp_dialog_select_picture_title">Odaberite sliku</string>
+    <string name="mobihelp_content_description_action_attach_image">Priložite sliku</string>
+    <string name="mobihelp_content_description_attachment">Slika-prilog</string>
+    <string name="mobihelp_attachment_default_message">Slika je priložena</string>
+
     <!-- Misc -->
     <string name="mobihelp_content_description_send_message">Slanje</string>
     <string name="mobihelp_content_description_device_screenshot">Screenshot</string>
@@ -48,33 +62,42 @@
     <string name="mobihelp_message_failed_to_load_solution_article">Ovaj članak ne može biti učitan.</string>
     <string name="mobihelp_message_support_agent">Support</string>
     <string name="mobihelp_message_pending">šalje se...</string>
-    
+    <string name="mobihelp_close_confirmation_message">Možemo li Vam pomoći pri rješavanju problema?</string>
+    <string name="mobihelp_message_conversation_ended">Ova je zabava završena.</string>
+    <string name="mobihelp_message_start_new_conversation">Započnite novu zabavu.</string>
+    <string name="mobihelp_message_vote_successful">Hvala Vam na Vašem feedbacku!</string>
+    <string name="mobihelp_solutions_vote_prompt">Je li Vam ovo rješenje pomoglo?</string>
+
+    <!-- Label text for UI elements -->
+    <string name="mobihelp_label_yes">Da</string>
+    <string name="mobihelp_label_no">Ne</string>
+
     <!-- Rating Dialog Title, Text & Button labels -->
     <string name="mobihelp_rating_dialog_text">Ako Vam se ova aplikacija sviđa, odvojite malo vremena da je ocijenite. Puno Vam hvala za Vašu podršku!</string>
     <string name="mobihelp_rating_dialog_title">Ocjena</string>
     <string name="mobihelp_rating_dialog_rate_button">Ocjena</string>
     <string name="mobihelp_rating_dialog_not_now_button">Ne sad</string>
     <string name="mobihelp_rating_dialog_feedback_button">Feedback</string>
-    
+
     <!-- Text used to describe the time each item in the conversation -->
     <string name="mobihelp_time_just_now">sad</string>
     <string name="mobihelp_time_n_mins_ago">prije {mins} minuta</string>
-    
+
     <plurals name="mobihelp_time_n_hrs_ago">
         <item quantity="one">prije {hours} sata</item>
         <item quantity="other">prije {hours} sati</item>
     </plurals>
-    
+
     <plurals name="mobihelp_time_n_weeks_ago">
         <item quantity="one">prije {weeks} tjedna</item>
         <item quantity="other">prije {weeks} tjedana</item>
     </plurals>
-    
+
     <plurals name="mobihelp_time_n_months_ago">
         <item quantity="one">prije {months} mjeseca</item>
         <item quantity="other">prije {months} mjeseci</item>
     </plurals>
-    
+
     <string name="mobihelp_time_a_day_ago">gestern</string>
     <string name="mobihelp_time_n_days_ago">prije {days} dana</string>
     <string name="mobihelp_time_more_than_a_year_ago">prije više od jedne godine</string>

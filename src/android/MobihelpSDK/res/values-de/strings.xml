@@ -28,12 +28,26 @@
     <string name="mobihelp_error_email_not_present">Bitte eine E-Mail-Adresse eingeben</string>
     <string name="mobihelp_error_email_not_valid">Bitte eine gültige E-Mail-Adresse eingeben</string>
     <string name="mobihelp_error_description_not_present">Bitte eine Problembeschreibung eingeben</string>
-    
     <string name="mobihelp_error_genreic_retry_message">Versuche es bitte später erneut.</string>
+    <string name="mobihelp_error_image_not_found">Bild nicht gefunden! Es wurde vielleicht verschoben oder gelöscht.</string>
+    <string name="mobihelp_error_attachment_too_large">Attachment zu groß!</string>
+    <string name="mobihelp_error_invalid_image">Ungültiges Bildformat!</string>
+    <string name="mobihelp_error_note_text_empty">Bitte gib einen Text als Antwort ein.</string>
+    <string name="mobihelp_error_support_section_disabled">Der Support-Bereich ist momentan nicht verfügbar!</string>
+    <string name="mobihelp_error_unable_to_launch_app_store">AppStore konnte nicht für die Bewertung geladen werden.</string>
+    <string name="mobihelp_error_waiting_for_image_to_load">Das Bild wird hochgeladen.</string>
+    <string name="mobihelp_error_no_matching_solution_articles_found">Keine passenden Hilfeartikel gefunden.</string>
+
     <!-- Menu Items -->
     <string name="mobihelp_menu_item_title_search_solutions">Suchen</string>
     <string name="mobihelp_menu_item_title_contact_us">Kontakt</string>
     <string name="mobihelp_menu_item_title_submit">Senden</string>
+
+    <!-- Text for attachment related items -->
+    <string name="mobihelp_dialog_select_picture_title">Bild auswählen</string>
+    <string name="mobihelp_content_description_action_attach_image">Bild anhängen</string>
+    <string name="mobihelp_content_description_attachment">Bild-Attachment</string>
+    <string name="mobihelp_attachment_default_message">Bild angehängt</string>
 
     <!-- Misc -->
     <string name="mobihelp_content_description_send_message">Senden</string>
@@ -46,6 +60,16 @@
     <string name="mobihelp_message_failed_to_load_solution_article">Dieser Artikel kann nicht geladen werden.</string>
     <string name="mobihelp_message_support_agent">Support</string>
     <string name="mobihelp_message_pending">wird gesendet...</string>
+
+    <string name="mobihelp_close_confirmation_message">Konnten wir dir bei der Lösung des Problems helfen?</string>
+    <string name="mobihelp_message_conversation_ended">Diese Unterhaltung ist beendet worden.</string>
+    <string name="mobihelp_message_start_new_conversation">Eine neue Unterhaltung anfangen.</string>
+    <string name="mobihelp_message_vote_successful">Danke für dein Feedback!</string>
+    <string name="mobihelp_solutions_vote_prompt">War diese Lösung hilfreich?</string>
+
+    <!-- Label text for UI elements -->
+    <string name="mobihelp_label_yes">Ja</string>
+    <string name="mobihelp_label_no">Nein</string>
 
     <!-- Rating Dialog Title, Text & Button labels -->
     <string name="mobihelp_rating_dialog_text">Wenn du diese App magst, nimm dir kurz Zeit, um sie zu bewerten. Vielen Dank für deine Unterstützung!</string>

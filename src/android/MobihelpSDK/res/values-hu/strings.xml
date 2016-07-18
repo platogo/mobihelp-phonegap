@@ -1,7 +1,7 @@
 <resources>
 
     <string name="app_name">FreshdeskSDK</string>
-    
+
     <string name="mobihelp_activity_title_solution_list">Ügyfélszolgálat</string>
     <string name="mobihelp_activity_title_tickets_list">Kérelem</string>
     <string name="mobihelp_activity_title_feedback">Kérelem létrehozása</string>
@@ -14,7 +14,7 @@
     <string name="mobihelp_label_request_review">Kattints ide, hogy értékeld az alkalmazást a Play Store-ban</string>
     <string name="mobihelp_autoreply_message">Visszajelzésedet köszönjük. Ügyfélszolgálatunk egy munkatársa hamarosan kapcsolatba lép veled.</string>
     <string name="mobihelp_default_anon_user_name">Mobihelp-felhasználó</string>
-    
+
     <!-- UI Element hints -->
     <string name="mobihelp_hint_email">E-mail cím</string>
     <string name="mobihelp_hint_feedback">Te mit gondolsz?</string>
@@ -23,7 +23,7 @@
     <string name="mobihelp_hint_optional_field">(választható)</string>
     <string name="mobihelp_hint_enter_text_here">Írd ide az üzeneted</string>
     <string name="mobihelp_hint_solutions_search_query_hint">Keresés az adatbankban</string>
-    
+
     <!-- Error Messages -->
     <string name="mobihelp_error_no_network_connection">Nincs internet kapcsolat!</string>
     <string name="mobihelp_error_name_not_present">Kérjük, add meg a neved</string>
@@ -31,12 +31,26 @@
     <string name="mobihelp_error_email_not_valid">Kérjük, érvényes e-mail címet adj meg</string>
     <string name="mobihelp_error_description_not_present">Írd körül a problémád</string>
     <string name="mobihelp_error_genreic_retry_message">Később próbálkozz újra.</string>
-    
+    <string name="mobihelp_error_image_not_found">A kép nem található! Esetleg áthelyezésre vagy törlésre került.</string>
+    <string name="mobihelp_error_attachment_too_large">A csatolmány túl nagy!</string>
+    <string name="mobihelp_error_invalid_image">Érvénytelen képformátum!</string>
+    <string name="mobihelp_error_note_text_empty">Kérjük, válaszként írj be egy szöveget.</string>
+    <string name="mobihelp_error_support_section_disabled">Az ügyfélszolgálati terület jelenleg nem áll rendelkezésre!</string>
+    <string name="mobihelp_error_unable_to_launch_app_store">Az AppStore nem tölthető az értékeléshez.</string>
+    <string name="mobihelp_error_waiting_for_image_to_load">A kép feltöltésre kerül.</string>
+    <string name="mobihelp_error_no_matching_solution_articles_found">A tárgyban nem található súgó bejegyzés.</string>
+
     <!-- Menu Items -->
     <string name="mobihelp_menu_item_title_search_solutions">Keresés</string>
     <string name="mobihelp_menu_item_title_contact_us">Kapcsolat</string>
     <string name="mobihelp_menu_item_title_submit">Küldés</string>
-    
+
+    <!-- Text for attachment related items -->
+    <string name="mobihelp_dialog_select_picture_title">Képet választ</string>
+    <string name="mobihelp_content_description_action_attach_image">Képet csatol</string>
+    <string name="mobihelp_content_description_attachment">Kép-csatolmány</string>
+    <string name="mobihelp_attachment_default_message">Kép csatolva</string>
+
     <!-- Misc -->
     <string name="mobihelp_content_description_send_message">Küldés</string>
     <string name="mobihelp_content_description_device_screenshot">Képernyőkép</string>
@@ -48,28 +62,37 @@
     <string name="mobihelp_message_failed_to_load_solution_article">Ez a szócikk nem tölthető be.</string>
     <string name="mobihelp_message_support_agent">Ügyfélszolgálat</string>
     <string name="mobihelp_message_pending">küldés folyamatban ...</string>
-    
+    <string name="mobihelp_close_confirmation_message">Segítettünk a probléma orvoslásában?</string>
+    <string name="mobihelp_message_conversation_ended">Ez a beszélgetés véget ért.</string>
+    <string name="mobihelp_message_start_new_conversation">Új beszélgetést kezd.</string>
+    <string name="mobihelp_message_vote_successful">Köszönjük a visszajelzésedet!</string>
+    <string name="mobihelp_solutions_vote_prompt">Segített ez a megoldás?</string>
+
+    <!-- Label text for UI elements -->
+    <string name="mobihelp_label_yes">Igen</string>
+    <string name="mobihelp_label_no">Nem</string>
+
     <!-- Rating Dialog Title, Text & Button labels -->
     <string name="mobihelp_rating_dialog_text">Ha kedveled, kérjük adj értékelést az alkalmazásról, csak néhány percnyi időt vesz igénybe. Köszönjük a segítséged!</string>
     <string name="mobihelp_rating_dialog_title">Értékelés</string>
     <string name="mobihelp_rating_dialog_rate_button">Értékelés</string>
     <string name="mobihelp_rating_dialog_not_now_button">Most nem</string>
     <string name="mobihelp_rating_dialog_feedback_button">Visszajelzés</string>
-    
+
     <!-- Text used to describe the time each item in the conversation -->
     <string name="mobihelp_time_just_now">most</string>
     <string name="mobihelp_time_n_mins_ago">{mins} perce</string>
-    
+
     <plurals name="mobihelp_time_n_hrs_ago">
         <item quantity="one">{hours} órája</item>
         <item quantity="other">{hours} órája</item>
     </plurals>
-    
+
     <plurals name="mobihelp_time_n_weeks_ago">
         <item quantity="one">{weeks} hete</item>
         <item quantity="other">{weeks} hete</item>
     </plurals>
-    
+
     <plurals name="mobihelp_time_n_months_ago">
         <item quantity="one">{months} hónapja</item>
         <item quantity="other">{months} hónapja</item>

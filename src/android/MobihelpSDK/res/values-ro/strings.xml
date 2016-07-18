@@ -1,7 +1,7 @@
 <resources>
 
     <string name="app_name">FreshdeskSDK</string>
-    
+
     <string name="mobihelp_activity_title_solution_list">Serviciul Suport</string>
     <string name="mobihelp_activity_title_tickets_list">Solicitări</string>
     <string name="mobihelp_activity_title_feedback">Creare solicitare</string>
@@ -14,7 +14,7 @@
     <string name="mobihelp_label_request_review">Dă click aici pentru a evalua aplicația în Play Store</string>
     <string name="mobihelp_autoreply_message">Îți mulțumim pentru feedback-ul tău. Colaboratorii noștri de la serviciul suport te vor contacta în scurt timp.</string>
     <string name="mobihelp_default_anon_user_name">Utilizatori Mobihelp</string>
-    
+
     <!-- UI Element hints -->
     <string name="mobihelp_hint_email">Adresă de e-mail</string>
     <string name="mobihelp_hint_feedback">Ce părere ai?</string>
@@ -23,7 +23,7 @@
     <string name="mobihelp_hint_optional_field">(opțional)</string>
     <string name="mobihelp_hint_enter_text_here">Inserează mesajul aici</string>
     <string name="mobihelp_hint_solutions_search_query_hint">Caută în baza noastră de date</string>
-    
+
     <!-- Error Messages -->
     <string name="mobihelp_error_no_network_connection">Nicio conexiune la Internet!</string>
     <string name="mobihelp_error_name_not_present">Te rugăm să introduci un nume</string>
@@ -31,12 +31,26 @@
     <string name="mobihelp_error_email_not_valid">Te rugăm să introduci o adresă validă de e-mail</string>
     <string name="mobihelp_error_description_not_present">Te rugăm să introduci o descriere a problemei</string>
     <string name="mobihelp_error_genreic_retry_message">Te rugăm să încerci din nou mai târziu.</string>
-    
+    <string name="mobihelp_error_image_not_found">Imaginea nu a fost găsită! A fost probabil mutată sau ștearsă.</string>
+    <string name="mobihelp_error_attachment_too_large">Atașamentul e prea mare!</string>
+    <string name="mobihelp_error_invalid_image">Format imagine nevalid!</string>
+    <string name="mobihelp_error_note_text_empty">Introdu un text ca răspuns.</string>
+    <string name="mobihelp_error_support_section_disabled">Domeniul de suport e momentan indisponibil!</string>
+    <string name="mobihelp_error_unable_to_launch_app_store">AppStore nu a putut fi încărcat pentru efectuarea evaluării.</string>
+    <string name="mobihelp_error_waiting_for_image_to_load">Imaginea se încarcă.</string>
+    <string name="mobihelp_error_no_matching_solution_articles_found">Nu au fost găsite articole ajutătoare corespunzătoare.</string>
+
     <!-- Menu Items -->
     <string name="mobihelp_menu_item_title_search_solutions">Căutare</string>
     <string name="mobihelp_menu_item_title_contact_us">Contact</string>
     <string name="mobihelp_menu_item_title_submit">Trimite</string>
-    
+
+    <!-- Text for attachment related items -->
+    <string name="mobihelp_dialog_select_picture_title">Selectare imagine</string>
+    <string name="mobihelp_content_description_action_attach_image">Atașare imagine</string>
+    <string name="mobihelp_content_description_attachment">Atașament cu imagine</string>
+    <string name="mobihelp_attachment_default_message">Imagine atașată</string>
+
     <!-- Misc -->
     <string name="mobihelp_content_description_send_message">Trimite</string>
     <string name="mobihelp_content_description_device_screenshot">Screenshot</string>
@@ -48,33 +62,42 @@
     <string name="mobihelp_message_failed_to_load_solution_article">Acest articol nu poate fi încărcat.</string>
     <string name="mobihelp_message_support_agent">Asistență</string>
     <string name="mobihelp_message_pending">În curs de trimitere ...</string>
-    
+    <string name="mobihelp_close_confirmation_message">Ți-am fost de ajutor la soluționarea problemei?</string>
+    <string name="mobihelp_message_conversation_ended">Această conversație a fost încheiată.</string>
+    <string name="mobihelp_message_start_new_conversation">Începe o nouă conversație.</string>
+    <string name="mobihelp_message_vote_successful">Îți mulțumim pentru feedback-ul tău!</string>
+    <string name="mobihelp_solutions_vote_prompt">A fost această soluție de ajutor?</string>
+
+    <!-- Label text for UI elements -->
+    <string name="mobihelp_label_yes">Da</string>
+    <string name="mobihelp_label_no">Nu</string>
+
     <!-- Rating Dialog Title, Text & Button labels -->
     <string name="mobihelp_rating_dialog_text">Dacă îți place această aplicație, rezervă-ți puțin timp pentru a o evalua. Îți mulțumim pentru sprijinul acordat!</string>
     <string name="mobihelp_rating_dialog_title">Evaluare</string>
     <string name="mobihelp_rating_dialog_rate_button">Evaluare</string>
     <string name="mobihelp_rating_dialog_not_now_button">Nu acum</string>
     <string name="mobihelp_rating_dialog_feedback_button">Feedback</string>
-    
+
     <!-- Text used to describe the time each item in the conversation -->
     <string name="mobihelp_time_just_now">acum</string>
     <string name="mobihelp_time_n_mins_ago">acum {mins} minute</string>
-    
+
     <plurals name="mobihelp_time_n_hrs_ago">
         <item quantity="one">acum {hours} oră</item>
         <item quantity="other">acum {hours} ore</item>
     </plurals>
-    
+
     <plurals name="mobihelp_time_n_weeks_ago">
         <item quantity="one">acum {weeks} săptămână</item>
         <item quantity="other">acum {weeks} săptămâni</item>
     </plurals>
-    
+
     <plurals name="mobihelp_time_n_months_ago">
         <item quantity="one">acum {months} lună</item>
         <item quantity="other">acum {months} luni</item>
     </plurals>
-    
+
     <string name="mobihelp_time_a_day_ago">ieri</string>
     <string name="mobihelp_time_n_days_ago">acum {days} zile</string>
     <string name="mobihelp_time_more_than_a_year_ago">acum mai bine de un an</string>
