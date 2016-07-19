@@ -33,10 +33,10 @@
     <string name="mobihelp_error_attachment_too_large">Allegato troppo grande!</string>
     <string name="mobihelp_error_invalid_image">Formato immagine non valido!</string>
     <string name="mobihelp_error_note_text_empty">Inserisci un testo come risposta.</string>
-    <string name="mobihelp_error_support_section_disabled">L'area dell'Assistenza non è momentaneamente disponibile!</string>
-    <string name="mobihelp_error_unable_to_launch_app_store">Impossibile caricare L'AppStore per lasciare una valutazione.</string>
+    <string name="mobihelp_error_support_section_disabled">L\'area dell\'Assistenza non è momentaneamente disponibile!</string>
+    <string name="mobihelp_error_unable_to_launch_app_store">Impossibile caricare L\'AppStore per lasciare una valutazione.</string>
     <string name="mobihelp_error_waiting_for_image_to_load">Caricamento immagine in corso.</string>
-    <string name="mobihelp_error_no_matching_solution_articles_found">Non è stato trovato alcun articolo d'aiuto adeguato</string>
+    <string name="mobihelp_error_no_matching_solution_articles_found">Non è stato trovato alcun articolo d\'aiuto adeguato</string>
 
     <!-- Menu Items -->
     <string name="mobihelp_menu_item_title_search_solutions">Cerca</string>
