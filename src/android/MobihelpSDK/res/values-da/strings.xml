@@ -29,11 +29,25 @@
     <string name="mobihelp_error_email_not_valid" >Skriv en gyldig e-mailadresse</string>
     <string name="mobihelp_error_description_not_present" >Skriv en problembeskrivelse</string>
     <string name="mobihelp_error_genreic_retry_message" >Prøv igen efter lidt tid</string>
+    <string name="mobihelp_error_image_not_found">Billedet kunne ikke findes! Det er måske blevet fjernet eller slettet.</string>
+    <string name="mobihelp_error_attachment_too_large">Vedhæftningen er for stor!</string>
+    <string name="mobihelp_error_invalid_image">Ugyldigt billedformat!</string>
+    <string name="mobihelp_error_note_text_empty">Indsæt venligst en tekst som svar.</string>
+    <string name="mobihelp_error_support_section_disabled">Supporten er i øjeblikket ikke tilgængelig!</string>
+    <string name="mobihelp_error_unable_to_launch_app_store">Appstoren kunne ikke indlæses til bedømmelsen.</string>
+    <string name="mobihelp_error_waiting_for_image_to_load">Billedet overføres.</string>
+    <string name="mobihelp_error_no_matching_solution_articles_found">Der blev ikke fundet nogen passende hjælpeartikel.</string>
 
     <!-- Menu Items -->
     <string name="mobihelp_menu_item_title_search_solutions" >Søg</string>
     <string name="mobihelp_menu_item_title_contact_us" >Kontakt os</string>
     <string name="mobihelp_menu_item_title_submit" >Send</string>
+
+    <!-- Text for attachment related items -->
+    <string name="mobihelp_dialog_select_picture_title">Vælg billede</string>
+    <string name="mobihelp_content_description_action_attach_image">Indsæt billede</string>
+    <string name="mobihelp_content_description_attachment">Billedvedhæftning</string>
+    <string name="mobihelp_attachment_default_message">Billede vedhæftet</string>
 
 	<!-- Misc -->
     <string name="mobihelp_content_description_send_message" >Send</string>
@@ -46,6 +60,15 @@
     <string name="mobihelp_message_failed_to_load_solution_article" >Artiklen kunne ikke indlæses</string>
     <string name="mobihelp_message_support_agent" >support</string>
     <string name="mobihelp_message_pending" >sender...</string>
+    <string name="mobihelp_close_confirmation_message">Kunne vi hjælpe dig med at løse problemet?</string>
+    <string name="mobihelp_message_conversation_ended">Denne samtale er afsluttet.</string>
+    <string name="mobihelp_message_start_new_conversation">Påbegynd en ny samtale.</string>
+    <string name="mobihelp_message_vote_successful">Tak for din feedback!</string>
+    <string name="mobihelp_solutions_vote_prompt">Var løsningen en hjælp?</string>
+
+    <!-- Label text for UI elements -->
+    <string name="mobihelp_label_yes">Ja</string>
+    <string name="mobihelp_label_no">Nej</string>
 
     <!-- Rating Dialog Title, Text & Button labels -->
     <string name="mobihelp_rating_dialog_text" >Hvis du godt kan lide denne app, vil vi sætte pris på, at du bruger et øjeblik på at bedømme den. Tak for din støtte!</string>

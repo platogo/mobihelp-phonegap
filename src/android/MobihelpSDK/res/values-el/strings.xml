@@ -1,7 +1,7 @@
 <resources>
 
     <string name="app_name">FreshdeskSDK</string>
-    
+
     <string name="mobihelp_activity_title_solution_list">Υποστήριξη</string>
     <string name="mobihelp_activity_title_tickets_list">Μήνυμα</string>
     <string name="mobihelp_activity_title_feedback">Δημιουργία μηνύματος</string>
@@ -31,11 +31,25 @@
     <string name="mobihelp_error_email_not_valid">Συμπλήρωσε μία διεύθυνση email που να ισχύει</string>
     <string name="mobihelp_error_description_not_present">Σε παρακαλούμε συμπλήρωσε την περιγραφή του προβλήματος</string>
     <string name="mobihelp_error_genreic_retry_message">Δοκίμασε ξανά σε λίγο.</string>
+    <string name="mobihelp_error_image_not_found">Δεν βρέθηκε η εικόνα! Πιθανότητα μετακινήθηκε ή διαγράφηκε.</string>
+    <string name="mobihelp_error_attachment_too_large">Το συννημένο αρχείο είναι πολύ μεγάλο!</string>
+    <string name="mobihelp_error_invalid_image">Μη έγκυρο format εικόνας!</string>
+    <string name="mobihelp_error_note_text_empty">Παρακαλώ να εισάγεις ένα κείμενο ως απάντηση.</string>
+    <string name="mobihelp_error_support_section_disabled">Η τεχνική υποστήριξη δεν είναι διαθέσιμη αυτή τη στιγμή.</string>
+    <string name="mobihelp_error_unable_to_launch_app_store">Το Appstore δεν φόρτωσε για αυτή την αξιολόγηση.</string>
+    <string name="mobihelp_error_waiting_for_image_to_load">Ανεβαίνει η εικόνα.</string>
+    <string name="mobihelp_error_no_matching_solution_articles_found">Δεν βρέθηκαν κείμενα βοήθειας.</string>
 
     <!-- Menu Items -->
     <string name="mobihelp_menu_item_title_search_solutions">Αναζήτηση</string>
     <string name="mobihelp_menu_item_title_contact_us">Επαφή</string>
     <string name="mobihelp_menu_item_title_submit">Αποστολή</string>
+
+    <!-- Text for attachment related items -->
+    <string name="mobihelp_dialog_select_picture_title">Επιλογή εικόνας</string>
+    <string name="mobihelp_content_description_action_attach_image">Επιλογή εικόνας</string>
+    <string name="mobihelp_content_description_attachment">Συνημμένη εικόνα</string>
+    <string name="mobihelp_attachment_default_message">Επισύναψη εικόνας</string>
 
     <!-- Misc -->
     <string name="mobihelp_content_description_send_message">Αποστολή</string>
@@ -47,6 +61,15 @@
     <string name="mobihelp_message_request_failed">Σφάλμα κατά την αποστολή. Δοκίμασε αργότερα.</string>
     <string name="mobihelp_message_failed_to_load_solution_article">Αυτό το άρθρο δεν μπορεί να φορτώσει.</string><string name="mobihelp_message_support_agent">Υποστήριξη</string>
     <string name="mobihelp_message_pending">αποστολή ...</string>
+    <string name="mobihelp_close_confirmation_message">Μπορέσαμε να βοηθήσουμε στη λύση του προβλήματος;</string>
+    <string name="mobihelp_message_conversation_ended">Αυτή η συζήτηση τελείωσε.</string>
+    <string name="mobihelp_message_start_new_conversation">Ξεκινά μια νέα συζήτηση.</string>
+    <string name="mobihelp_message_vote_successful">Ευχαριστούμε για το feedback σου!</string>
+    <string name="mobihelp_solutions_vote_prompt">Βοήθησε η λύση;</string>
+
+    <!-- Label text for UI elements -->
+    <string name="mobihelp_label_yes">Ναι</string>
+    <string name="mobihelp_label_no">Όχι</string>
 
     <!-- Rating Dialog Title, Text & Button labels -->
     <string name="mobihelp_rating_dialog_text">Εάν σου αρέσει αυτή η εφαρμογή, αφιέρωσε λίγο χρόνο για να την αξιολογήσεις. Ευχαριστούμε πολύ για την υποστήριξή σου!</string>
@@ -60,20 +83,20 @@
     <string name="mobihelp_time_n_mins_ago">πριν {mins} λεπτά</string>
 
     <plurals name="mobihelp_time_n_hrs_ago">
-        <item quantity="one">πριν {hours} ώρα</item> 
+        <item quantity="one">πριν {hours} ώρα</item>
         <item quantity="other">πριν {hours} ώρες</item>
     </plurals>
-    
+
     <plurals name="mobihelp_time_n_weeks_ago">
         <item quantity="one">πριν {weeks} εβδομάδα</item>
         <item quantity="other">πριν {weeks} εβδομάδες</item>
     </plurals>
-    
+
     <plurals name="mobihelp_time_n_months_ago">
         <item quantity="one">πριν {months} μήνα</item>
         <item quantity="other">πριν {months} μήνες</item>
     </plurals>
-    
+
     <string name="mobihelp_time_a_day_ago">χτες</string>
     <string name="mobihelp_time_n_days_ago">πριν {days} ημέρες</string>
     <string name="mobihelp_time_more_than_a_year_ago">περισσότερ από πριν έναν μήνα</string>

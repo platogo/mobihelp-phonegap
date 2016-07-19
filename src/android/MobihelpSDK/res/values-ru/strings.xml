@@ -29,11 +29,25 @@
     <string name="mobihelp_error_email_not_valid">Введите действительный адрес электронной почты</string>
     <string name="mobihelp_error_description_not_present">Введите описание проблемы</string>
     <string name="mobihelp_error_genreic_retry_message">Повторите попытку позже</string>
+    <string name="mobihelp_error_image_not_found">Изображение не найдено! Возможно, оно было перемещено или удалено.</string>
+    <string name="mobihelp_error_attachment_too_large">Слишком большой размер вложения!</string>
+    <string name="mobihelp_error_invalid_image">Недопустимый формат изображения!</string>
+    <string name="mobihelp_error_note_text_empty">Пожалуйста, введи текст ответа.</string>
+    <string name="mobihelp_error_support_section_disabled">Раздел поддержки в данный момент недоступен!</string>
+    <string name="mobihelp_error_unable_to_launch_app_store">Не удалось подключить AppStore для оценки.</string>
+    <string name="mobihelp_error_waiting_for_image_to_load">Идет загрузка изображения.</string>
+    <string name="mobihelp_error_no_matching_solution_articles_found">По данному запросу ничего не найдено.</string>
 
     <!-- Menu Items -->
     <string name="mobihelp_menu_item_title_search_solutions">Поиск</string>
     <string name="mobihelp_menu_item_title_contact_us">Связаться с нами</string>
     <string name="mobihelp_menu_item_title_submit">Передать</string>
+
+    <!-- Text for attachment related items -->
+    <string name="mobihelp_dialog_select_picture_title">Выбрать изображение</string>
+    <string name="mobihelp_content_description_action_attach_image">Прикрепить изображение</string>
+    <string name="mobihelp_content_description_attachment">Вложение (графика)</string>
+    <string name="mobihelp_attachment_default_message">Изображение добавлено</string>
 
     <!-- Misc -->
     <string name="mobihelp_content_description_send_message">Отправить</string>
@@ -46,6 +60,15 @@
     <string name="mobihelp_message_failed_to_load_solution_article">Не удалось загрузить эту статью</string>
     <string name="mobihelp_message_support_agent">поддержка</string>
     <string name="mobihelp_message_pending">отправка...</string>
+    <string name="mobihelp_close_confirmation_message">Помогли ли наши советы решить твою проблему?</string>
+    <string name="mobihelp_message_conversation_ended">Это обсуждение закрыто.</string>
+    <string name="mobihelp_message_start_new_conversation">Создано новое обсуждение.</string>
+    <string name="mobihelp_message_vote_successful">Спасибо за обратную связь!</string>
+    <string name="mobihelp_solutions_vote_prompt">Была ли эта информация полезной?</string>
+
+    <!-- Label text for UI elements -->
+    <string name="mobihelp_label_yes">Да</string>
+    <string name="mobihelp_label_no">Нет</string>
 
     <!-- Rating Dialog Title, Text & Button labels -->
     <string name="mobihelp_rating_dialog_text">Если вас устраивает данное приложение, уделите минутку для его оценки. Благодарим за поддержку.</string>

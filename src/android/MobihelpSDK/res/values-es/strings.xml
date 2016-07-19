@@ -52,6 +52,14 @@
 	<string name="mobihelp_error_email_not_valid">Por favor introduce una dirección de correo electrónico válida</string>
     <string name="mobihelp_error_description_not_present">Por favor introduce la descripción de tu problema</string>
     <string name="mobihelp_error_genreic_retry_message">Por favor espera un poco y vuelve a intentar</string>
+    <string name="mobihelp_error_image_not_found">¡No se ha encontrado la imagen! Quizás ha sido desplazada o eliminada.</string>
+    <string name="mobihelp_error_attachment_too_large">¡Archivo demasiado grande!</string>
+    <string name="mobihelp_error_invalid_image">¡Formato de imagen no válido!</string>
+    <string name="mobihelp_error_note_text_empty">Por favor, introduce un texto como respuesta.</string>
+    <string name="mobihelp_error_support_section_disabled">El área de atención al cliente no está disponible en este momento.</string>
+    <string name="mobihelp_error_unable_to_launch_app_store">La AppStore no se ha podido cargar para la calificación.</string>
+    <string name="mobihelp_error_waiting_for_image_to_load">La imagen se está subiendo.</string>
+    <string name="mobihelp_error_no_matching_solution_articles_found">No se ha encontrado ningún artículo de ayuda con esos criterios.</string>
 
     <!-- Menu Items -->
 
@@ -64,6 +72,12 @@
     <!-- Title for "Submit" menu item in Feedback Screen (Feedback Activity) -->
     <string name="mobihelp_menu_item_title_submit">Enviar</string>
 
+    <!-- Text for attachment related items -->
+    <string name="mobihelp_dialog_select_picture_title">Seleccionar imagen</string>
+    <string name="mobihelp_content_description_action_attach_image">Añadir imagen</string>
+    <string name="mobihelp_content_description_attachment">Archivo de imagen</string>
+    <string name="mobihelp_attachment_default_message">Imagen añadida</string>
+
     <!-- Misc -->
     <string name="mobihelp_content_description_send_message">Enviar</string>
     <string name="mobihelp_content_description_device_screenshot">Captura de pantalla del dispositivo</string>
@@ -75,6 +89,15 @@
     <string name="mobihelp_message_failed_to_load_solution_article">No es posible cargar este artículo</string>
     <string name="mobihelp_message_support_agent">soporte</string>
     <string name="mobihelp_message_pending">enviando..</string>
+    <string name="mobihelp_close_confirmation_message">¿Te hemos ayudado a solucionar el problema?</string>
+    <string name="mobihelp_message_conversation_ended">La conversación ha terminado.</string>
+    <string name="mobihelp_message_start_new_conversation">Empezar conversación nueva.</string>
+    <string name="mobihelp_message_vote_successful">¡Gracias por tu comentario!</string>
+    <string name="mobihelp_solutions_vote_prompt">¿Te ha resultado útil esta solución?</string>
+
+    <!-- Label text for UI elements -->
+    <string name="mobihelp_label_yes">Sí</string>
+    <string name="mobihelp_label_no">No</string>
 
     <!-- Rating Dialog Title, Text & Button labels -->
     <string name="mobihelp_rating_dialog_text">Si te ha gustado esta aplicación, por favor toma un momento para calificarla. ¡Gracias!</string>

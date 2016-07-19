@@ -29,11 +29,25 @@
     <string name="mobihelp_error_email_not_valid">Voer een geldig e-mailadres in</string>
     <string name="mobihelp_error_description_not_present">Voer een korte beschrijving van het probleem in</string>
     <string name="mobihelp_error_genreic_retry_message">Probeer het later opnieuw</string>
+    <string name="mobihelp_error_image_not_found">Afbeelding niet gevonden! Misschien werd ze verplaatst of verwijderd.</string>
+    <string name="mobihelp_error_attachment_too_large">Bijlage te groot!</string>
+    <string name="mobihelp_error_invalid_image">Ongeldig afbeeldingsformaat!</string>
+    <string name="mobihelp_error_note_text_empty">Gelieve een tekst als antwoord in te voeren.</string>
+    <string name="mobihelp_error_support_section_disabled">De supportrubriek is op dit moment niet beschikbaar!</string>
+    <string name="mobihelp_error_unable_to_launch_app_store">AppStore kon voor de beoordeling niet worden geladen.</string>
+    <string name="mobihelp_error_waiting_for_image_to_load">De afbeelding wordt geüpload.</string>
+    <string name="mobihelp_error_no_matching_solution_articles_found">Geen passend helpartikel gevonden.</string>
 
     <!-- Menu Items -->
     <string name="mobihelp_menu_item_title_search_solutions">Zoeken</string>
     <string name="mobihelp_menu_item_title_contact_us">Contact opnemen</string>
     <string name="mobihelp_menu_item_title_submit">Indienen</string>
+
+    <!-- Text for attachment related items -->
+    <string name="mobihelp_dialog_select_picture_title">Afbeelding kiezen</string>
+    <string name="mobihelp_content_description_action_attach_image">Afbeelding bijvoegen</string>
+    <string name="mobihelp_content_description_attachment">Afbeelding-bijlage</string>
+    <string name="mobihelp_attachment_default_message">Afbeelding bijgevoegd</string>
 
     <!-- Misc -->
     <string name="mobihelp_content_description_send_message">Verzenden</string>
@@ -46,6 +60,15 @@
     <string name="mobihelp_message_failed_to_load_solution_article">Dit artikel kan niet worden geladen</string>
     <string name="mobihelp_message_support_agent">ondersteuning</string>
     <string name="mobihelp_message_pending">verzenden...</string>
+    <string name="mobihelp_close_confirmation_message">Hebben we jou bij de oplossing van jouw probleem geholpen?</string>
+    <string name="mobihelp_message_conversation_ended">Dit gesprek werd beëindigd.</string>
+    <string name="mobihelp_message_start_new_conversation">Een nieuw gesprek starten.</string>
+    <string name="mobihelp_message_vote_successful">Bedankt voor jouw feedback!</string>
+    <string name="mobihelp_solutions_vote_prompt">Heeft deze oplossing jou geholpen?</string>
+
+    <!-- Label text for UI elements -->
+    <string name="mobihelp_label_yes">Ja</string>
+    <string name="mobihelp_label_no">Nee</string>
 
     <!-- Rating Dialog Title, Text & Button labels -->
     <string name="mobihelp_rating_dialog_text">Als u tevreden bent over de app, zou u deze dan misschien willen beoordelen? Bedankt voor uw steun!</string>
