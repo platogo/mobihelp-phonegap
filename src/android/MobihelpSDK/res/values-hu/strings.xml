@@ -1,7 +1,5 @@
 <resources>
 
-    <string name="app_name">FreshdeskSDK</string>
-
     <string name="mobihelp_activity_title_solution_list">Ügyfélszolgálat</string>
     <string name="mobihelp_activity_title_tickets_list">Kérelem</string>
     <string name="mobihelp_activity_title_feedback">Kérelem létrehozása</string>
