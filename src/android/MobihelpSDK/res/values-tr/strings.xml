@@ -1,7 +1,5 @@
 <resources>
 
-    <string name="app_name">FreshdeskSDK</string>
-    
     <string name="mobihelp_activity_title_solution_list">Müşteri Hizmetleri</string>
     <string name="mobihelp_activity_title_tickets_list">Yazışmalar</string>
     <string name="mobihelp_activity_title_feedback">Yazışma başlat</string>

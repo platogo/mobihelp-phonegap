@@ -1,7 +1,5 @@
 <resources>
 
-    <string name="app_name">FreshdeskSDK</string>
-
     <string name="mobihelp_activity_title_solution_list">Podrška</string>
     <string name="mobihelp_activity_title_tickets_list">Upit</string>
     <string name="mobihelp_activity_title_feedback">Sastavljanje upita</string>

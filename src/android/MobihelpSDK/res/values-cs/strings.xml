@@ -1,7 +1,5 @@
 <resources>
 
-    <string name="app_name">FreshdeskSDK</string>
-
     <string name="mobihelp_activity_title_solution_list">Zákaznická podpora</string>
     <string name="mobihelp_activity_title_tickets_list">Konverzace</string>
     <string name="mobihelp_activity_title_feedback">Spustit konverzaci</string>
