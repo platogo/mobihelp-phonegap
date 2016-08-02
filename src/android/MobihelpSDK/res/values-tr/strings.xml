@@ -12,7 +12,7 @@
     <string name="mobihelp_label_request_review">Play Store\'daki uygulamamızı değerlendirmek için buraya tıklayınız</string>
     <string name="mobihelp_autoreply_message">Geribildiriminiz için teşekkür ederiz. Müşteri hizmetlerimizde görevli arkadaşlarımız en kısa zamanda mesajınıza cevap verecektir.</string>
     <string name="mobihelp_default_anon_user_name">Mobihelp kullanıcısı</string>
-    
+
     <!-- UI Element hints -->
     <string name="mobihelp_hint_email">E-posta adresi</string>
     <string name="mobihelp_hint_feedback">Ne düşünüyorsunuz?</string>
@@ -21,7 +21,7 @@
     <string name="mobihelp_hint_optional_field">(isteğe bağlı)</string>
     <string name="mobihelp_hint_enter_text_here">Mesajınızı buraya giriniz</string>
     <string name="mobihelp_hint_solutions_search_query_hint">Bilgi bankamızı araştırın</string>
-    
+
     <!-- Error Messages -->
     <string name="mobihelp_error_no_network_connection">Bağlantı hatası!</string>
     <string name="mobihelp_error_name_not_present">Lütfen bir isim giriniz</string>
@@ -29,12 +29,26 @@
     <string name="mobihelp_error_email_not_valid">Lütfen geçerli bir e-posta adresi giriniz</string>
     <string name="mobihelp_error_description_not_present">Lütfen sorununuzu kısaca yazınız.</string>
     <string name="mobihelp_error_genreic_retry_message">Lütfen daha sonra tekrar deneyin.</string>
-    
+    <string name="mobihelp_error_image_not_found">Resim bulunamadı! Kaydırılmış veya silinmiş olabilir</string>
+    <string name="mobihelp_error_attachment_too_large">Eklenti çok büyük!</string>
+    <string name="mobihelp_error_invalid_image">Geçersiz resim!</string>
+    <string name="mobihelp_error_note_text_empty">Cevap için lütfen bir metin girin</string>
+    <string name="mobihelp_error_support_section_disabled">Destek bölümü şu an kullanılmamakta</string>
+    <string name="mobihelp_error_unable_to_launch_app_store">Görüntüleme için AppStore'a bağlanılamıyor</string>
+    <string name="mobihelp_error_waiting_for_image_to_load">Resmin yüklenmesi için bekleniyor.</string>
+    <string name="mobihelp_error_no_matching_solution_articles_found">No matching solution articles</string>
+
     <!-- Menu Items -->
     <string name="mobihelp_menu_item_title_search_solutions">Arama</string>
     <string name="mobihelp_menu_item_title_contact_us">İletişim</string>
     <string name="mobihelp_menu_item_title_submit">Gönder</string>
-    
+
+    <!-- Text for attachment related items -->
+    <string name="mobihelp_dialog_select_picture_title">Resim seç</string>
+    <string name="mobihelp_content_description_action_attach_image">Resim ekle</string>
+    <string name="mobihelp_content_description_attachment">Resim eklentisi</string>
+    <string name="mobihelp_attachment_default_message">Resim eklendi</string>
+
     <!-- Misc -->
     <string name="mobihelp_content_description_send_message">Gönder</string>
     <string name="mobihelp_content_description_device_screenshot">Cihaz-ekran görüntüsü</string>
@@ -46,28 +60,37 @@
     <string name="mobihelp_message_failed_to_load_solution_article">Bu metine şu an ulaşılamıyor.</string>
     <string name="mobihelp_message_support_agent">Müşteri Hizmetleri</string>
     <string name="mobihelp_message_pending">gönderiliyor...</string>
-    
+    <string name="mobihelp_close_confirmation_message">Sorununuzun çözümünde size yardımcı olabildik mi?</string>
+    <string name="mobihelp_message_conversation_ended">Bu yazışma tamamlandı.</string>
+    <string name="mobihelp_message_start_new_conversation">Yeni bir yazışma başlat</string>
+    <string name="mobihelp_message_vote_successful">Geri dönüşünüz için teşekkür ederiz!</string>
+    <string name="mobihelp_solutions_vote_prompt">Bu çözüm size yardımcı oldu  mu?</string>
+
+    <!-- Label text for UI elements -->
+    <string name="mobihelp_label_yes">Evet</string>
+    <string name="mobihelp_label_no">Hayır</string>
+
     <!-- Rating Dialog Title, Text & Button labels -->
     <string name="mobihelp_rating_dialog_text">Eğer uygulamamız hoşunuza gittiyse, zaman ayırıp uygulamamızı değerlendirirseniz seviniriz. İlginiz için teşekkür ederiz!</string>
     <string name="mobihelp_rating_dialog_title">Değerlendir</string>
     <string name="mobihelp_rating_dialog_rate_button">Değerlendir</string>
     <string name="mobihelp_rating_dialog_not_now_button">Şimdi değil</string>
     <string name="mobihelp_rating_dialog_feedback_button">Geribildirim</string>
-    
+
     <!-- Text used to describe the time each item in the conversation -->
     <string name="mobihelp_time_just_now">şimdi</string>
     <string name="mobihelp_time_n_mins_ago">{mins} dakika önce</string>
-    
+
     <plurals name="mobihelp_time_n_hrs_ago">
         <item quantity="one">{hours} saat önce</item>
         <item quantity="other">{hours} saat önce</item>
     </plurals>
-    
+
     <plurals name="mobihelp_time_n_weeks_ago">
         <item quantity="one">{weeks} hafta önce</item>
         <item quantity="other">{weeks} hafta önce</item>
     </plurals>
-    
+
     <plurals name="mobihelp_time_n_months_ago">
         <item quantity="one">{months} ay önce</item>
         <item quantity="other">{months} ay önce</item>
