@@ -29,11 +29,25 @@
     <string name="mobihelp_error_email_not_valid">Wpisz prawidłowy adres e-mail</string>
     <string name="mobihelp_error_description_not_present">Wpisz opis problemu</string>
     <string name="mobihelp_error_genreic_retry_message">Spróbuj ponownie za jakiś czas</string>
+    <string name="mobihelp_error_image_not_found">Obraz nie został znaleziony! Możliwe, że został przeniesiony lub usunięty</string>
+    <string name="mobihelp_error_attachment_too_large">Załącznik jest za duży!</string>
+    <string name="mobihelp_error_invalid_image">Uszkodzony obraz!</string>
+    <string name="mobihelp_error_note_text_empty">Wpisz tekst odpowiedzi</string>
+    <string name="mobihelp_error_support_section_disabled">Dział klienta nie jest obecnie dostępny!</string>
+    <string name="mobihelp_error_unable_to_launch_app_store">Połączenie z AppStore obecnie nie jest możliwe</string>
+    <string name="mobihelp_error_waiting_for_image_to_load">Oczekuje na pobranie obrazu.</string>
+    <string name="mobihelp_error_no_matching_solution_articles_found">Brak pasujących artykułów</string>
 
     <!-- Menu Items -->
     <string name="mobihelp_menu_item_title_search_solutions">Wyszukaj</string>
     <string name="mobihelp_menu_item_title_contact_us">Skontaktuj się z nami</string>
     <string name="mobihelp_menu_item_title_submit">Wyślij</string>
+
+    <!-- Text for attachment related items -->
+    <string name="mobihelp_dialog_select_picture_title">Wybierz obraz</string>
+    <string name="mobihelp_content_description_action_attach_image">Załącz obraz</string>
+    <string name="mobihelp_content_description_attachment">Obraz w załączniku</string>
+    <string name="mobihelp_attachment_default_message">Załączony obraz</string>
 
     <!-- Misc -->
     <string name="mobihelp_content_description_send_message">Wyślij</string>
@@ -46,6 +60,15 @@
     <string name="mobihelp_message_failed_to_load_solution_article">Nie można wczytać tego artykułu</string>
     <string name="mobihelp_message_support_agent">pomoc techniczna</string>
     <string name="mobihelp_message_pending">wysyłanie...</string>
+    <string name="mobihelp_close_confirmation_message">Czy pomogliśmy rozwiązać Twój problem?</string>
+    <string name="mobihelp_message_conversation_ended">Ta konweracja została zakończona.</string>
+    <string name="mobihelp_message_start_new_conversation">Rozpocznij nową konwersację</string>
+    <string name="mobihelp_message_vote_successful">Dziękujemy za Twoją opinie!</string>
+    <string name="mobihelp_solutions_vote_prompt">Czy to rozwiązanie pomogło?</string>
+
+    <!-- Label text for UI elements -->
+    <string name="mobihelp_label_yes">Tak</string>
+    <string name="mobihelp_label_no">Nie</string>
 
     <!-- Rating Dialog Title, Text & Button labels -->
     <string name="mobihelp_rating_dialog_text">Jeśli lubisz korzystać z tej aplikacji, oceń ją. Dziękujemy za wsparcie!</string>
