@@ -34,7 +34,7 @@
     <string name="mobihelp_error_invalid_image">Geçersiz resim!</string>
     <string name="mobihelp_error_note_text_empty">Cevap için lütfen bir metin girin</string>
     <string name="mobihelp_error_support_section_disabled">Destek bölümü şu an kullanılmamakta</string>
-    <string name="mobihelp_error_unable_to_launch_app_store">Görüntüleme için AppStore'a bağlanılamıyor</string>
+    <string name="mobihelp_error_unable_to_launch_app_store">Görüntüleme için AppStore\'a bağlanılamıyor</string>
     <string name="mobihelp_error_waiting_for_image_to_load">Resmin yüklenmesi için bekleniyor.</string>
     <string name="mobihelp_error_no_matching_solution_articles_found">No matching solution articles</string>
 
