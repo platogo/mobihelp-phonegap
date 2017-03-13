@@ -30,8 +30,9 @@
     <platform name="android">
        
         <!-- Move the Java wrapper class to specified location(which corresponds with the Class' package name) -->
-        <source-file src="src/android/MobihelpPlugin.java" target-dir="src/com/freshdesk/mobihelp/android" />       
         
+        <source-file src="src/android/MobihelpPlugin.java" target-dir="src/com/freshdesk/mobihelp/android" />
+        <source-file src="src/android/TLSSocketFactory.java" target-dir="src/com/freshdesk/mobihelp/android" />
 
         <!-- Pushing <feature> tag into android platform's config.xml -->
         <!-- This is needed for Cordova to recognize the plugin and for using the Java Class globally -->

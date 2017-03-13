@@ -17,10 +17,18 @@ import org.json.JSONObject;
 import org.json.JSONException;
 
 import android.content.Context;
+import android.os.Build;
 import android.util.Log;
 
 
 import com.freshdesk.mobihelp.*;
+
+import java.security.KeyManagementException;
+import java.security.NoSuchAlgorithmException;
+
+import javax.net.ssl.HttpsURLConnection;
+import javax.net.ssl.SSLContext;
+import javax.net.ssl.SSLSocketFactory;
 
 
 public class MobihelpPlugin extends CordovaPlugin {
@@ -35,7 +43,30 @@ public class MobihelpPlugin extends CordovaPlugin {
     public void initialize(CordovaInterface cordova, CordovaWebView webView)
     {
         super.initialize(cordova, webView);
+
+        // Use TLSSocketFactory on older Anrdoid versions where TLS 1.2 is not supported
+        enableTLS12Compat();
         cordovaActivity = cordova.getActivity();
+    }
+
+    private void enableTLS12Compat() {
+        try {
+            SSLContext sslContext = SSLContext.getInstance("TLS");
+            sslContext.init(null, null, null);
+            SSLSocketFactory sslSocketFactory = null;
+            if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN && Build.VERSION.SDK_INT <= Build.VERSION_CODES.KITKAT) {
+                sslSocketFactory = new TLSSocketFactory(sslContext.getSocketFactory());
+            } else {
+                sslSocketFactory = sslContext.getSocketFactory();
+            }
+            HttpsURLConnection.setDefaultSSLSocketFactory(sslSocketFactory);
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        } catch (KeyManagementException e) {
+            e.printStackTrace();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
 
